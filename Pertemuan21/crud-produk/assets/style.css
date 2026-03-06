@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+}
+
+table td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn{
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.tambah{ background: #27ae60;}
+.edit{ background: #2980b9;}
+.hapus{ background: #c0392b;}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
